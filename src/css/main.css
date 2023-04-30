@@ -1,0 +1,39 @@
+input {
+    all: unset;
+}
+
+.container-deposit {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.form-deposit,
+.label-deposit {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-deposit {
+    margin-bottom: 30px;
+}
+
+.input-amount,
+.input-month {
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+    border: black solid 1px;
+}
+
+.form-btn {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.title {
+    display: inline;
+}
